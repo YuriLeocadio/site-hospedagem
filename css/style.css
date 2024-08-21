@@ -1,4 +1,4 @@
-.header{
+.header {
     width: 100%;
     background-color: #232a31;
     padding: 12px 32px;
@@ -8,30 +8,30 @@
     gap: 8px;
 }
 
-.logo{
+.logo {
     width: 50px;
 }
 
-.navbar-items{
+.navbar-items {
     list-style: none;
     display: flex;
     align-items: center;
     gap: 16px;
 }
 
-.navbar-items li a{
+.navbar-items li a {
     color: #eeee;
     text-transform: uppercase;
 }
 
-#login-btn{
+#login-btn {
     background-color: #2cc76a;
     color: #fff;
     padding: 16px 20px;
     border-radius: 4px;
 }
 
-.banner{
+.banner {
     background-image: url("../assets/img/mainbanner.png");
     background-position: center;
     background-size: cover;
@@ -44,49 +44,148 @@
     gap: 12px;
 }
 
-.banner h1, .banner strong{
+.banner h1,
+.banner strong {
     color: #FFF;
     text-align: center;
 }
 
-.banner h1{
+.banner h1 {
     font-size: 54px;
 }
 
-.banner strong{
+.banner strong {
     font-size: 20px;
 }
 
-.benefits{
+.benefits {
     width: 100%;
     text-align: center;
     padding: 50px 20px;
 }
 
-.benefits-list{
+.benefits-list {
     display: flex;
     list-style: none;
     gap: 30px;
 }
 
-.benefits-items p{
+.benefits-items p {
     color: #8a8282ee;
     padding: 26px 12px;
 }
 
-.fas{
+.fas {
     font-size: 60px;
     margin-bottom: 30px;
 }
 
-.fa-shield-alt{
+.fa-shield-alt {
     color: #2cc76a;
 }
 
-.fa-rocket{
+.fa-rocket {
     color: red;
 }
 
-.fa-comments{
+.fa-comments {
     color: orange;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.cards-title {
+    text-align: center;
+}
+
+.cards-title h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cards-title p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.cards ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+
+.card {
+    width: 225px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #eee;
+}
+
+.card header {
+    padding: 0 16px 16px 16px;
+    display: flex;
+    background-color: #232a31;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.card header h3 {
+    color: #FFF;
+}
+
+.value {
+    width: 88px;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2cc76a;
+    margin-top: -50px;
+    border-radius: 50%;
+}
+
+.value strong {
+    color: #fff;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+}
+
+.card footer {
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 16px;
+    background-color: #2cc76a;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: red;
 }
